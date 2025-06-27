@@ -1,4 +1,4 @@
-# 🧑‍💻 marneilx-site — My Developer Portfolio
+# 🧑‍💻 marneilx-portfolio — My Developer Portfolio
 
 > Built with Angular • Fully Responsive • Dark Themed • DevIcon Tech Stack Showcase
 
