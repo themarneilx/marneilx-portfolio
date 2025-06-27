@@ -25,7 +25,7 @@ This is where I showcase my **projects**, share a bit **about me**, and let peop
 
 ## 📸 Preview
 
-![screenshot](assets/preview.png)  
+![screenshot](/src/assets/preview.png)  
 
 
 ## 🚀 Local Development
