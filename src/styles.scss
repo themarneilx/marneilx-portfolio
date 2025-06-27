@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #6366f1;
+}
+
+// === animations.scss (optional) ===
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
