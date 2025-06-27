@@ -26,7 +26,7 @@ This is where I showcase my **projects**, share a bit **about me**, and let peop
 ## 📸 Preview
 
 ![screenshot](assets/preview.png)  
-_(Add your screenshot or deploy a link and embed it here)_
+
 
 ## 🚀 Local Development
 
@@ -34,6 +34,6 @@ Clone this repo and run locally:
 
 ```bash
 git clone https://github.com/themarneilx/marneilx-portfolio.git
-cd marneilx-site
+cd marneilx-portfolio
 npm install
 ng serve --host 0.0.0.0
