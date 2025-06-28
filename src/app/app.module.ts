@@ -9,15 +9,18 @@ import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AppRoutingModule } from './app.routes';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeroComponent,
-    AboutComponent,
-    ProjectsComponent,
-    ContactComponent
-  ],
+  AppComponent,
+  AboutComponent,
+  ContactComponent,
+  HeroComponent,
+  ProjectsComponent,
+  ServicesComponent
+],
+
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

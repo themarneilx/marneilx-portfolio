@@ -10,4 +10,7 @@ export class HeroComponent {
   scrollToAbout() {
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
   }
+  scrollToServices() {
+  document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+  }
 }

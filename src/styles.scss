@@ -1,8 +1,20 @@
-body {
+body, html {
   margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0f0f0f, #1a1a1a, #1c1c1c, #1e1e1e, #202020);
+  color: #f3f3f3;
   font-family: 'Segoe UI', sans-serif;
-  scroll-behavior: smooth;
+  min-height: 100vh;
 }
+
+.dark-section {
+  background: linear-gradient(to bottom, #0a0a0a, #070707);
+}
+
+.contact-section {
+  background: linear-gradient(to bottom, #1a1a1a, #292929);
+}
+
 
 nav {
   position: fixed;
